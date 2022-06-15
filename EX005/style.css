@@ -1,0 +1,9 @@
+li{
+    list-style-position: outside;
+    list-style-type: square;
+    text-decoration: underline;
+    } 
+
+#itemPersonalizado {
+   text-decoration: none;
+   }
