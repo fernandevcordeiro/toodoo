@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens para Multiplataforma</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <!--Como tive dificuldade em dimensionar e posicionar as imagens conforme foi proposto no exercício 15, envio este código onde o dimensionamento da imagem é alterado conforme o dimensionamento da tela do usuário, contribuindo para aplicações mais rápidas.-->
+    <p>Tente abrir em diversos dispositivos ou redimencione a janela do seu navegador</p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png"> <!--Source media:type-->
+        <img src="imagens/foto-g.png" alt="Imagem Flexível"> <!--A imagem vem grande por default, porém ela se adapta ao dimensionamento da tela-->
+    </picture>
+
+    </audio>
+</body>
+</html>
