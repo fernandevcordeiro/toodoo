@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 600px;
+    height: 80px;
+    border-collapse: collapse;
+    border-color: 150px;
+    background-color: #D3EAFC;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+td {
+    border: 8px solid #1C98F0;
+    padding: 8px;
+    text-align: center;
+}
+
+/*Utilizei a extensão pick color do Collorzila para buscar o código das cores e representar de forma mais fiel à proposta*/
